@@ -16,11 +16,11 @@ The current target list is:
 * κ¹ Cet
 * τ Boo A
 * β Com
-* 70 Oph A
+* 70 Oph A (fits file exceeding 50 MB. They are available upon request at viktor.sumida@outlook.com)
 * 36 Oph B
 * 18 Sco
 * υ And
-* λ Ser
+* λ Ser (fits file exceeding 50 MB. They are available upon request at viktor.sumida@outlook.com)
 * 47 UMa
 
 The SEDs are constructed from combinations of:
