@@ -1,0 +1,32 @@
+PHAROS lambda Ser FITS validation
+================================================================================
+Created UTC: 2026-06-10T16:50:46+00:00
+
+N rows: 125701
+Wavelength range: 0.55000001-4999.98183593 nm
+Flux range: 1.52367272e+01-1.15099016e+08 erg s^-1 cm^-2 nm^-1
+Segments: 10
+
+Non-finite/non-positive wavelength or flux rows: 0
+Minimum wavelength spacing after sorting: 0.00000000e+00 nm
+Maximum wavelength spacing after sorting: 5.00000000e-01 nm
+
+Forbidden 1AU/Photochem/orbit/TOA columns in SED DataFrame: []
+
+High-energy luminosity sanity checks from packaged surface flux:
+  L_0p5_12p4_nm = 6.80000000e+27 erg/s
+  L_0p5_12p4_nm / published_LX = 1.000000000000
+  L_12p4_91p2_nm = 5.44449577e+28 erg/s
+  L_12p4_91p2_nm / Sanz_LEUV = 1.000000000000
+
+Segment summary:
+  01 | FISM2 X-ray/soft-X published-Lx                                                  |     0.5500-   12.3500 nm | N=    119
+  02 | FISM2/Sanz EUV core                                                              |    12.4500-   91.1500 nm | N=    788
+  03 | FISM2/Sanz 91.2-HST transition bridge                                            |    91.2500-  115.0076 nm | N=    244
+  04 | HST/COS observed cleaned block 01                                                |   115.0076-  119.2645 nm | N=    503
+  05 | IUE normalized HST-gap fill 01                                                   |   119.4333-  126.7083 nm | N=     30
+  06 | HST/COS observed cleaned block 02                                                |   126.8431-  214.9880 nm | N=  10872
+  07 | IUE red gap-fill observed                                                        |   215.2583-  334.6333 nm | N=    240
+  08 | PHOENIX bridge                                                                   |   334.7833-  349.9333 nm | N=    304
+  09 | CFLIB optical PHOENIX-calibrated                                                 |   350.0200-  889.9818 nm | N=  30402
+  10 | PHOENIX tail                                                                     |   890.0818- 4999.9818 nm | N=  82199
